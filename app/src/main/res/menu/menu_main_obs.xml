@@ -1,0 +1,30 @@
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.dees.gopiemex.activities.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/info_icon">
+        <menu>
+            <item
+                android:id="@+id/action_credits"
+                android:orderInCategory="99"
+
+                android:title="@string/lang_dialog_credits"/>
+
+
+
+            <item
+                android:id="@+id/action_change_language"
+                android:orderInCategory="60"
+                android:title="@string/language_setting"
+               />
+        </menu>
+    </item>
+</menu>
+	

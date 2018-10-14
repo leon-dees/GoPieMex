@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MxGoPie</string>
+    <!-- MainActivity -->
+    <string name="act_main_title" translatable="false">AVIS ®</string>
+    <string name="act_main_subtitle" translatable="false">powered by Go Pie ®</string>
+    <string name="act_main_button" translatable="false">activate daypass</string>
+    <string name="act_main_copyright" translatable="false">Todos los logos y nombres usados en este software son marcas registradas. En este software se hace una representación demostrativa sin animo de comercializacion o venta a terceros.</string>
+    <!-- DaypassActivity -->
+    <string name="act_daypass_string1" translatable="false">HOURS LEFT</string>
+    <string name="act_daypass_string2" translatable="false">DAYPASSES LEFT</string>
+    <string name="act_daypass_string3" translatable="false">MB LEFT</string>
+
+    <string name="dialogMsg">please wait</string>
+    <string name="btnGetMore">GET GOPASS</string>
+    <string name="language_setting">change language</string>
+    <string name="lang_dialog_title">select language</string>
+    <string name="lang_dialog_message">pick one language</string>
+    <string name="lang_dialog_credits">credits</string>
+    <string name="action_settings">about me</string>
+
+    <string-array name="lang_select">
+        <item>App info</item>
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+    <string name="msg1">Included Internet Gopass is 500 MB at full speed</string>
+    <string name="msg2">You can upgrade your plan by touching the below buttons</string>
+    <string name="header_gopie">header GoPie</string>
+    <string name="btnLang"> ... </string>
+    <string name="end_msgs_resp">Hi thanks </string>
+    <string name="msg_response">These are your order numebers</string>
+    <string name="credits_app">For more information about this app say hello at leon@dees.mx, thanks!</string>
+
+
+</resources>

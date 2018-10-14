@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogMsg">por favor espere</string>
+    <string name="btnGetMore">COMPRAR GOPASS</string>
+    <string name="language_setting">cambiar idioma</string>
+    <string name="lang_dialog_title">selecciona lenguaje</string>
+    <string name="lang_dialog_message">elige un idioma</string>
+    <string name="lang_dialog_credits">creditos</string>
+    <string name="action_settings">acerca del app</string>
+    <string name="msg1">El Gopass incluido es de 500 MB de internet a máxima velocidad.</string>
+    <string name="msg2">Si se agotaron tus datos, puedes adquirir un paquete de complemento</string>
+    <string name="header_gopie">encabezado GoPie</string>
+    <string name="btnLang"> ... </string>
+    <string name="end_msgs_resp">Hola gracias</string>
+    <string name="msg_response">Estos son tus números de orden</string>
+    <string name="credits_app">Para mas información sobre esta app envía un mensaje a leon@dees.mx, gracias!</string>
+</resources>

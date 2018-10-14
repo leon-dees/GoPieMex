@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.dees.gopiemex.activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dees"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:id="@+id/lblUserGoPie"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/btnDaypass"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/daypass_button"
+            android:onClick="btnDaypass"
+            android:text="@string/btnGetMore"
+            android:textColor="@color/white" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <!--<Spinner
+            android:id="@+id/spiLang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/lang_select"
+            android:padding="10dp"
+            android:prompt="@string/language_setting" />-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Spinner
+            android:id="@+id/spiLang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:spinnerMode="dialog"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnLang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:onClick="btnLang"
+            android:text="@string/btnLang"
+            android:textColor="@color/white" />
+    </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="@string/credits_app"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/color4"
+            android:textSize="20sp"
+            android:id="@+id/lblCredits"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
